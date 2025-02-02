@@ -8,7 +8,7 @@ import java.util.Objects;
 public class NotificationTask {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    private Integer  id;
     private Long chatId;
 
     private String notification;
@@ -26,11 +26,11 @@ public class NotificationTask {
     public NotificationTask() {
     }
 
-    public Long getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 

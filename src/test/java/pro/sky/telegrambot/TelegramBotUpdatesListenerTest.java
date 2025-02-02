@@ -2,9 +2,10 @@ package pro.sky.telegrambot;
 
 import com.pengrad.telegrambot.model.Chat;
 import com.pengrad.telegrambot.model.Message;
-import org.testng.annotations.Test;
+
 import com.pengrad.telegrambot.model.Update;
 
+import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
